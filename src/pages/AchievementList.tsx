@@ -346,16 +346,15 @@ export default function AchievementList() {
                         </span>
                       </td>
                       <td className="px-6 py-4">
-                        <div className="flex flex-wrap gap-1">
-                          {achievement.members.slice(0, 3).map((member) => (
-                            <span key={member.id} className="inline-flex items-center gap-1 px-2 py-0.5 bg-slate-100 text-slate-600 text-xs rounded-full">
-                              <User size={10} />
+                        <div className="flex flex-wrap items-center gap-1">
+                          {achievement.members.slice(0, 5).map((member) => (
+                            <span key={member.id} className="inline-flex items-center px-2 py-0.5 bg-slate-100 text-slate-600 text-xs rounded-full">
                               {member.userName}
                             </span>
                           ))}
-                          {achievement.members.length > 3 && (
-                            <span className="inline-flex items-center px-2 py-0.5 bg-slate-100 text-slate-600 text-xs rounded-full">
-                              +{achievement.members.length - 3}
+                          {achievement.members.length > 5 && (
+                            <span className="inline-flex items-center px-2 py-0.5 bg-blue-50 text-blue-600 text-xs rounded-full font-medium">
+                              +{achievement.members.length - 5}
                             </span>
                           )}
                         </div>

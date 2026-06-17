@@ -172,16 +172,14 @@ export default function ReviewManagement() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-slate-50 rounded-xl p-5">
                 <h3 className="text-lg font-semibold text-slate-800 mb-4">参与成员</h3>
-                <div className="space-y-3">
+                <div className="flex flex-wrap gap-2">
                   {selectedAchievement.members.map((member, index) => (
-                    <div key={member.id} className="flex items-center gap-3 p-3 bg-white rounded-lg">
-                      <div className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-semibold">
+                    <div key={member.id} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-slate-200 rounded-full">
+                      <div className="w-5 h-5 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-xs font-semibold">
                         {index + 1}
                       </div>
-                      <div>
-                        <p className="font-medium text-slate-800">{member.userName}</p>
-                        <p className="text-sm text-slate-500">{getMemberRoleLabel(member.role)}</p>
-                      </div>
+                      <span className="text-sm font-medium text-slate-800">{member.userName}</span>
+                      <span className="text-xs text-slate-500">· {getMemberRoleLabel(member.role)}</span>
                     </div>
                   ))}
                 </div>
@@ -272,16 +270,15 @@ export default function ReviewManagement() {
                                 {getAchievementTypeLabel(achievement.type)}
                               </span>
                             </div>
-                            <div className="flex flex-wrap gap-2">
-                              {achievement.members.slice(0, 4).map((member) => (
-                                <span key={member.id} className="inline-flex items-center gap-1 px-2 py-1 bg-slate-100 text-slate-600 text-xs rounded-full">
+                            <div className="flex flex-wrap items-center gap-1">
+                              {achievement.members.slice(0, 5).map((member) => (
+                                <span key={member.id} className="inline-flex items-center px-2 py-0.5 bg-slate-100 text-slate-600 text-xs rounded-full">
                                   {member.userName}
-                                  <span className="text-slate-400">· {getMemberRoleLabel(member.role)}</span>
                                 </span>
                               ))}
-                              {achievement.members.length > 4 && (
-                                <span className="inline-flex items-center px-2 py-1 bg-slate-100 text-slate-600 text-xs rounded-full">
-                                  +{achievement.members.length - 4}
+                              {achievement.members.length > 5 && (
+                                <span className="inline-flex items-center px-2 py-0.5 bg-blue-50 text-blue-600 text-xs rounded-full font-medium">
+                                  +{achievement.members.length - 5}
                                 </span>
                               )}
                             </div>

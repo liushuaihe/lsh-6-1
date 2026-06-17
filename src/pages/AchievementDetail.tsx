@@ -204,16 +204,14 @@ export default function AchievementDetail() {
 
             <div className="bg-slate-50 rounded-xl p-5">
               <h3 className="text-lg font-semibold text-slate-800 mb-4">参与成员</h3>
-              <div className="space-y-3">
+              <div className="flex flex-wrap gap-2">
                 {achievement.members.map((member, index) => (
-                  <div key={member.id} className="flex items-center gap-3 p-3 bg-white rounded-lg">
-                    <div className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-semibold">
+                  <div key={member.id} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-slate-200 rounded-full">
+                    <div className="w-5 h-5 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-xs font-semibold">
                       {index + 1}
                     </div>
-                    <div className="flex-1">
-                      <p className="font-medium text-slate-800">{member.userName}</p>
-                      <p className="text-sm text-slate-500">{getMemberRoleLabel(member.role)}</p>
-                    </div>
+                    <span className="text-sm font-medium text-slate-800">{member.userName}</span>
+                    <span className="text-xs text-slate-500">· {getMemberRoleLabel(member.role)}</span>
                   </div>
                 ))}
               </div>
