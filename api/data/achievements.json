@@ -1,0 +1,305 @@
+{
+  "ce4b747e-e59a-4d72-907c-59d18a232f00": {
+    "id": "ce4b747e-e59a-4d72-907c-59d18a232f00",
+    "type": "paper",
+    "title": "基于深度学习的图像识别方法研究",
+    "status": "approved",
+    "submitterId": "0483576f-f427-47e4-8b8c-7337914b5329",
+    "submitterName": "李同学",
+    "members": [
+      {
+        "id": "cacfe5b2-59b1-41d2-9bd4-f35e54748c55",
+        "userId": "0483576f-f427-47e4-8b8c-7337914b5329",
+        "userName": "李同学",
+        "role": "first_author",
+        "order": 1
+      },
+      {
+        "id": "b023a0e1-803b-4b41-be29-297fae50d98c",
+        "userId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+        "userName": "张教授",
+        "role": "corresponding_author",
+        "order": 2
+      },
+      {
+        "id": "8a387f85-ea67-4b2c-9018-55cdd7e84fcb",
+        "userId": "9bd02727-0801-4b59-a721-2cf82db86eef",
+        "userName": "王同学",
+        "role": "co_author",
+        "order": 3
+      }
+    ],
+    "createdAt": "2025-04-14T16:00:00.000Z",
+    "updatedAt": "2025-05-19T16:00:00.000Z",
+    "submittedAt": "2025-04-19T16:00:00.000Z",
+    "approvedAt": "2025-05-19T16:00:00.000Z",
+    "reviewComment": "研究内容充实，实验结果充分，同意归档。",
+    "reviewedBy": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+    "reviewedByName": "张教授",
+    "paperJournal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "paperVolume": "45",
+    "paperIssue": "6",
+    "paperPages": "1234-1250",
+    "paperDoi": "10.1109/TPAMI.2023.1234567",
+    "paperCitation": "Li S, Zhang W, Wang H. Research on Image Recognition Method Based on Deep Learning[J]. IEEE TPAMI, 2023, 45(6): 1234-1250.",
+    "publicationDate": "2023-06-15"
+  },
+  "349e77b1-76e9-4543-ac48-c0361cab0c22": {
+    "id": "349e77b1-76e9-4543-ac48-c0361cab0c22",
+    "type": "paper",
+    "title": "自然语言处理中的Transformer模型优化",
+    "status": "approved",
+    "submitterId": "9bd02727-0801-4b59-a721-2cf82db86eef",
+    "submitterName": "王同学",
+    "members": [
+      {
+        "id": "8192273c-8f26-4a16-8ffc-14eb27e47d2a",
+        "userId": "9bd02727-0801-4b59-a721-2cf82db86eef",
+        "userName": "王同学",
+        "role": "first_author",
+        "order": 1
+      },
+      {
+        "id": "73904ce0-272a-41e9-b897-992c2e7e7f67",
+        "userId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+        "userName": "张教授",
+        "role": "corresponding_author",
+        "order": 2
+      }
+    ],
+    "createdAt": "2026-01-09T16:00:00.000Z",
+    "updatedAt": "2026-02-14T16:00:00.000Z",
+    "submittedAt": "2026-01-14T16:00:00.000Z",
+    "approvedAt": "2026-02-14T16:00:00.000Z",
+    "reviewComment": "论文质量较高，具有一定的创新性。",
+    "reviewedBy": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+    "reviewedByName": "张教授",
+    "paperJournal": "ACL 2024",
+    "paperVolume": "1",
+    "paperIssue": "1",
+    "paperPages": "456-468",
+    "paperDoi": "10.18653/v1/2024.acl-main.123",
+    "paperCitation": "Wang H, Zhang W. Transformer Model Optimization in Natural Language Processing[C]//ACL 2024.",
+    "publicationDate": "2024-02-20"
+  },
+  "dba438ca-b3b1-4e87-b5eb-281f44a32f43": {
+    "id": "dba438ca-b3b1-4e87-b5eb-281f44a32f43",
+    "type": "patent",
+    "title": "一种智能图像分类装置及方法",
+    "status": "approved",
+    "submitterId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+    "submitterName": "张教授",
+    "members": [
+      {
+        "id": "2ae8b24f-4ae0-4194-acd6-5e9b67316b8b",
+        "userId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+        "userName": "张教授",
+        "role": "principal",
+        "order": 1
+      },
+      {
+        "id": "7d930190-7d96-4824-8d32-cca9959e4e54",
+        "userId": "0483576f-f427-47e4-8b8c-7337914b5329",
+        "userName": "李同学",
+        "role": "participant",
+        "order": 2
+      }
+    ],
+    "createdAt": "2025-06-19T16:00:00.000Z",
+    "updatedAt": "2026-03-09T16:00:00.000Z",
+    "submittedAt": "2025-06-30T16:00:00.000Z",
+    "approvedAt": "2026-03-09T16:00:00.000Z",
+    "reviewComment": "专利内容完整，授权可能性大。",
+    "reviewedBy": "412d6309-96b6-4350-bfde-829621595aac",
+    "reviewedByName": "系统管理员",
+    "patentNumber": "CN202310456789.1",
+    "patentType": "invention",
+    "patentApplicationDate": "2023-06-15",
+    "patentGrantDate": "2024-03-10",
+    "patentStatus": "granted"
+  },
+  "6434e6a6-0e16-4901-8dab-08469342db36": {
+    "id": "6434e6a6-0e16-4901-8dab-08469342db36",
+    "type": "patent",
+    "title": "基于大数据的实验室安全预警系统",
+    "status": "pending",
+    "submitterId": "0483576f-f427-47e4-8b8c-7337914b5329",
+    "submitterName": "李同学",
+    "members": [
+      {
+        "id": "398ea601-f5d5-4117-86b6-568c57c2bd72",
+        "userId": "0483576f-f427-47e4-8b8c-7337914b5329",
+        "userName": "李同学",
+        "role": "first_author",
+        "order": 1
+      },
+      {
+        "id": "a5df6674-b688-48d0-91b8-f33e40fd0a0b",
+        "userId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+        "userName": "张教授",
+        "role": "principal",
+        "order": 2
+      }
+    ],
+    "createdAt": "2026-03-24T16:00:00.000Z",
+    "updatedAt": "2026-03-27T16:00:00.000Z",
+    "submittedAt": "2026-03-31T16:00:00.000Z",
+    "patentNumber": "CN202410234567.8",
+    "patentType": "invention",
+    "patentApplicationDate": "2024-03-05",
+    "patentStatus": "applied"
+  },
+  "e02eb8c9-22fa-4a65-baa2-dba000d88e24": {
+    "id": "e02eb8c9-22fa-4a65-baa2-dba000d88e24",
+    "type": "project",
+    "title": "国家重点研发计划：智能医疗影像诊断关键技术研究",
+    "status": "approved",
+    "submitterId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+    "submitterName": "张教授",
+    "members": [
+      {
+        "id": "8e72f46d-b6f4-445e-84ad-b9620cc4d66e",
+        "userId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+        "userName": "张教授",
+        "role": "principal",
+        "order": 1
+      },
+      {
+        "id": "d4ec2e63-0f94-496c-a81f-f18fc52df3e3",
+        "userId": "0483576f-f427-47e4-8b8c-7337914b5329",
+        "userName": "李同学",
+        "role": "participant",
+        "order": 2
+      },
+      {
+        "id": "5d6b1657-08dc-4c54-ab25-fdf03cdf85b3",
+        "userId": "9bd02727-0801-4b59-a721-2cf82db86eef",
+        "userName": "王同学",
+        "role": "participant",
+        "order": 3
+      }
+    ],
+    "createdAt": "2024-08-31T16:00:00.000Z",
+    "updatedAt": "2025-11-14T16:00:00.000Z",
+    "submittedAt": "2024-09-09T16:00:00.000Z",
+    "approvedAt": "2024-09-24T16:00:00.000Z",
+    "reviewComment": "国家级项目，研究意义重大，同意立项。",
+    "reviewedBy": "412d6309-96b6-4350-bfde-829621595aac",
+    "reviewedByName": "系统管理员",
+    "projectNumber": "2022YFB1234500",
+    "projectSource": "国家重点研发计划",
+    "projectLevel": "national",
+    "projectStartDate": "2022-09-01",
+    "projectEndDate": "2025-08-31",
+    "projectFunding": 500,
+    "projectStatus": "ongoing"
+  },
+  "de6b3463-e66f-41f8-b512-c21234f723e9": {
+    "id": "de6b3463-e66f-41f8-b512-c21234f723e9",
+    "type": "project",
+    "title": "省部级自然科学基金：多模态数据融合理论与方法",
+    "status": "approved",
+    "submitterId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+    "submitterName": "张教授",
+    "members": [
+      {
+        "id": "4b8f33b4-6b71-44b7-9bde-ca3d95d060f3",
+        "userId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+        "userName": "张教授",
+        "role": "principal",
+        "order": 1
+      },
+      {
+        "id": "704532d3-6e77-4ac2-a7f9-504567f9f4d9",
+        "userId": "0483576f-f427-47e4-8b8c-7337914b5329",
+        "userName": "李同学",
+        "role": "participant",
+        "order": 2
+      }
+    ],
+    "createdAt": "2025-01-09T16:00:00.000Z",
+    "updatedAt": "2025-03-19T16:00:00.000Z",
+    "submittedAt": "2025-01-19T16:00:00.000Z",
+    "approvedAt": "2025-03-19T16:00:00.000Z",
+    "reviewComment": "研究方案合理，经费预算合适。",
+    "reviewedBy": "412d6309-96b6-4350-bfde-829621595aac",
+    "reviewedByName": "系统管理员",
+    "projectNumber": "2023JJ12345",
+    "projectSource": "省自然科学基金",
+    "projectLevel": "provincial",
+    "projectStartDate": "2023-03-01",
+    "projectEndDate": "2026-02-28",
+    "projectFunding": 50,
+    "projectStatus": "ongoing"
+  },
+  "38c77bbb-aba1-440d-949f-f7aef626b7c4": {
+    "id": "38c77bbb-aba1-440d-949f-f7aef626b7c4",
+    "type": "paper",
+    "title": "图神经网络在推荐系统中的应用研究",
+    "status": "pending",
+    "submitterId": "9bd02727-0801-4b59-a721-2cf82db86eef",
+    "submitterName": "王同学",
+    "members": [
+      {
+        "userId": "9bd02727-0801-4b59-a721-2cf82db86eef",
+        "userName": "王同学",
+        "role": "first_author",
+        "order": 1,
+        "id": "4e799ff7-08d9-424b-bba5-3fb9a952ed8e"
+      },
+      {
+        "userId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+        "userName": "张教授",
+        "role": "corresponding_author",
+        "order": 2,
+        "id": "d2682b8b-7f6e-4dae-b31a-47d7676df306"
+      },
+      {
+        "userId": "0483576f-f427-47e4-8b8c-7337914b5329",
+        "userName": "李同学",
+        "role": "co_author",
+        "order": 3,
+        "id": "a6efa16d-f0fa-4e24-8980-d7f0838b3e95"
+      }
+    ],
+    "createdAt": "2026-03-14T16:00:00.000Z",
+    "updatedAt": "2026-06-17T07:51:16.693Z",
+    "paperJournal": "TPAIM",
+    "publicationDate": "2222-02-22",
+    "submittedAt": "2026-06-17T07:51:16.693Z",
+    "reviewedBy": "412d6309-96b6-4350-bfde-829621595aac"
+  },
+  "79732f79-6892-42fa-bcab-72a03bf20c23": {
+    "id": "79732f79-6892-42fa-bcab-72a03bf20c23",
+    "type": "paper",
+    "title": "联邦学习隐私保护机制研究",
+    "status": "rejected",
+    "submitterId": "0483576f-f427-47e4-8b8c-7337914b5329",
+    "submitterName": "李同学",
+    "members": [
+      {
+        "id": "91dc82bf-2c6d-454b-86f6-880967e56844",
+        "userId": "0483576f-f427-47e4-8b8c-7337914b5329",
+        "userName": "李同学",
+        "role": "first_author",
+        "order": 1
+      },
+      {
+        "id": "c040676d-dc14-4132-89ff-62f353438906",
+        "userId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+        "userName": "张教授",
+        "role": "corresponding_author",
+        "order": 2
+      }
+    ],
+    "createdAt": "2026-02-19T16:00:00.000Z",
+    "updatedAt": "2026-03-09T16:00:00.000Z",
+    "submittedAt": "2026-02-24T16:00:00.000Z",
+    "approvedAt": "2026-03-09T16:00:00.000Z",
+    "reviewComment": "实验部分不够充分，需要补充对比实验和消融实验。建议修改后重新提交。",
+    "reviewedBy": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+    "reviewedByName": "张教授",
+    "paperJournal": "NeurIPS 2024",
+    "publicationDate": ""
+  }
+}

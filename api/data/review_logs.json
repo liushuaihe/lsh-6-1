@@ -1,0 +1,128 @@
+{
+  "1bc01c95-7a07-4041-923e-3d33c2083e7f": {
+    "id": "1bc01c95-7a07-4041-923e-3d33c2083e7f",
+    "achievementId": "ce4b747e-e59a-4d72-907c-59d18a232f00",
+    "reviewerId": "0483576f-f427-47e4-8b8c-7337914b5329",
+    "reviewerName": "李同学",
+    "action": "submitted",
+    "comment": "提交审核",
+    "createdAt": "2025-04-19T16:00:00.000Z"
+  },
+  "c23f1e38-198c-4ae5-a648-543b83772c64": {
+    "id": "c23f1e38-198c-4ae5-a648-543b83772c64",
+    "achievementId": "ce4b747e-e59a-4d72-907c-59d18a232f00",
+    "reviewerId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+    "reviewerName": "张教授",
+    "action": "approved",
+    "comment": "研究内容充实，实验结果充分，同意归档。",
+    "createdAt": "2025-05-19T16:00:00.000Z"
+  },
+  "ef397a10-f4dc-4e2e-8625-ef2032dc5bb2": {
+    "id": "ef397a10-f4dc-4e2e-8625-ef2032dc5bb2",
+    "achievementId": "349e77b1-76e9-4543-ac48-c0361cab0c22",
+    "reviewerId": "9bd02727-0801-4b59-a721-2cf82db86eef",
+    "reviewerName": "王同学",
+    "action": "submitted",
+    "comment": "提交审核",
+    "createdAt": "2026-01-14T16:00:00.000Z"
+  },
+  "0b663694-3d13-43e4-94cc-ac75b3ac234a": {
+    "id": "0b663694-3d13-43e4-94cc-ac75b3ac234a",
+    "achievementId": "349e77b1-76e9-4543-ac48-c0361cab0c22",
+    "reviewerId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+    "reviewerName": "张教授",
+    "action": "approved",
+    "comment": "论文质量较高，具有一定的创新性。",
+    "createdAt": "2026-02-14T16:00:00.000Z"
+  },
+  "94df0722-0516-4e67-9a94-b8f354a5d3ea": {
+    "id": "94df0722-0516-4e67-9a94-b8f354a5d3ea",
+    "achievementId": "dba438ca-b3b1-4e87-b5eb-281f44a32f43",
+    "reviewerId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+    "reviewerName": "张教授",
+    "action": "submitted",
+    "comment": "提交审核",
+    "createdAt": "2025-06-30T16:00:00.000Z"
+  },
+  "6f0ccc3f-9ce3-4847-bc8b-3fde5bce2d1d": {
+    "id": "6f0ccc3f-9ce3-4847-bc8b-3fde5bce2d1d",
+    "achievementId": "dba438ca-b3b1-4e87-b5eb-281f44a32f43",
+    "reviewerId": "412d6309-96b6-4350-bfde-829621595aac",
+    "reviewerName": "系统管理员",
+    "action": "approved",
+    "comment": "专利内容完整，授权可能性大。",
+    "createdAt": "2026-03-09T16:00:00.000Z"
+  },
+  "8719b16b-6111-447d-aaff-7fb6ee4c4030": {
+    "id": "8719b16b-6111-447d-aaff-7fb6ee4c4030",
+    "achievementId": "6434e6a6-0e16-4901-8dab-08469342db36",
+    "reviewerId": "0483576f-f427-47e4-8b8c-7337914b5329",
+    "reviewerName": "李同学",
+    "action": "submitted",
+    "comment": "提交审核",
+    "createdAt": "2026-03-31T16:00:00.000Z"
+  },
+  "da5cdd65-3647-49ae-bf8f-29c3e8f7bb88": {
+    "id": "da5cdd65-3647-49ae-bf8f-29c3e8f7bb88",
+    "achievementId": "e02eb8c9-22fa-4a65-baa2-dba000d88e24",
+    "reviewerId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+    "reviewerName": "张教授",
+    "action": "submitted",
+    "comment": "提交审核",
+    "createdAt": "2024-09-09T16:00:00.000Z"
+  },
+  "4917a5de-fa9c-4ea8-922a-775d1b33932e": {
+    "id": "4917a5de-fa9c-4ea8-922a-775d1b33932e",
+    "achievementId": "e02eb8c9-22fa-4a65-baa2-dba000d88e24",
+    "reviewerId": "412d6309-96b6-4350-bfde-829621595aac",
+    "reviewerName": "系统管理员",
+    "action": "approved",
+    "comment": "国家级项目，研究意义重大，同意立项。",
+    "createdAt": "2024-09-24T16:00:00.000Z"
+  },
+  "b108a409-d72e-4950-9ff0-bd188e4c121d": {
+    "id": "b108a409-d72e-4950-9ff0-bd188e4c121d",
+    "achievementId": "de6b3463-e66f-41f8-b512-c21234f723e9",
+    "reviewerId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+    "reviewerName": "张教授",
+    "action": "submitted",
+    "comment": "提交审核",
+    "createdAt": "2025-01-19T16:00:00.000Z"
+  },
+  "79e6cd5e-aa49-44b1-b602-4fc7e305ef4b": {
+    "id": "79e6cd5e-aa49-44b1-b602-4fc7e305ef4b",
+    "achievementId": "de6b3463-e66f-41f8-b512-c21234f723e9",
+    "reviewerId": "412d6309-96b6-4350-bfde-829621595aac",
+    "reviewerName": "系统管理员",
+    "action": "approved",
+    "comment": "研究方案合理，经费预算合适。",
+    "createdAt": "2025-03-19T16:00:00.000Z"
+  },
+  "568b7a42-4eeb-400c-a431-7b24422a6eb1": {
+    "id": "568b7a42-4eeb-400c-a431-7b24422a6eb1",
+    "achievementId": "79732f79-6892-42fa-bcab-72a03bf20c23",
+    "reviewerId": "0483576f-f427-47e4-8b8c-7337914b5329",
+    "reviewerName": "李同学",
+    "action": "submitted",
+    "comment": "提交审核",
+    "createdAt": "2026-02-24T16:00:00.000Z"
+  },
+  "e958867d-7a00-4b32-9937-f84a0f58f31e": {
+    "id": "e958867d-7a00-4b32-9937-f84a0f58f31e",
+    "achievementId": "79732f79-6892-42fa-bcab-72a03bf20c23",
+    "reviewerId": "94b2feb1-b0ed-47e2-ab42-63a705e2c32a",
+    "reviewerName": "张教授",
+    "action": "rejected",
+    "comment": "实验部分不够充分，需要补充对比实验和消融实验。建议修改后重新提交。",
+    "createdAt": "2026-03-09T16:00:00.000Z"
+  },
+  "7a3b8b3b-82aa-4678-be52-2e4d4f1795b0": {
+    "achievementId": "38c77bbb-aba1-440d-949f-f7aef626b7c4",
+    "reviewerId": "412d6309-96b6-4350-bfde-829621595aac",
+    "reviewerName": "",
+    "action": "submitted",
+    "comment": "提交审核",
+    "id": "7a3b8b3b-82aa-4678-be52-2e4d4f1795b0",
+    "createdAt": "2026-06-17T07:51:16.692Z"
+  }
+}
