@@ -27,6 +27,7 @@ import {
 } from 'recharts';
 import { api } from '../api/client.js';
 import { useAuthStore } from '../store/useAuthStore.js';
+import { MemberDisplay } from '../components/MemberDisplay.js';
 import { formatDate } from '../utils/format.js';
 import type { Achievement, YearlyStatistics, TypeStatistics } from '../../shared/types.js';
 
@@ -257,10 +258,10 @@ export default function Dashboard() {
                   </div>
                   <div className="flex-1 min-w-0">
                     <h4 className="font-medium text-slate-800 truncate">{achievement.title}</h4>
-                    <p className="text-sm text-slate-500 mt-1">
-                      {achievement.members.map(m => m.userName).join('、')}
-                    </p>
-                    <p className="text-xs text-slate-400 mt-1">{formatDate(achievement.createdAt)}</p>
+                    <div className="mt-1.5">
+                      <MemberDisplay members={achievement.members} variant="compact" maxVisible={2} />
+                    </div>
+                    <p className="text-xs text-slate-400 mt-1.5">{formatDate(achievement.createdAt)}</p>
                   </div>
                   <div className="flex-shrink-0">
                     {achievement.status === 'approved' ? (

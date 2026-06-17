@@ -14,16 +14,15 @@ import {
   Trash2,
   Send,
   X,
-  Calendar,
-  User
+  Calendar
 } from 'lucide-react';
 import { api } from '../api/client.js';
 import { useAuthStore } from '../store/useAuthStore.js';
 import { StatusBadge } from '../components/StatusBadge.js';
+import { MemberDisplay } from '../components/MemberDisplay.js';
 import { 
   formatDate, 
-  getAchievementTypeLabel, 
-  getMemberRoleLabel 
+  getAchievementTypeLabel
 } from '../utils/format.js';
 import type { 
   Achievement, 
@@ -346,18 +345,7 @@ export default function AchievementList() {
                         </span>
                       </td>
                       <td className="px-6 py-4">
-                        <div className="flex flex-wrap items-center gap-1">
-                          {achievement.members.slice(0, 5).map((member) => (
-                            <span key={member.id} className="inline-flex items-center px-2 py-0.5 bg-slate-100 text-slate-600 text-xs rounded-full">
-                              {member.userName}
-                            </span>
-                          ))}
-                          {achievement.members.length > 5 && (
-                            <span className="inline-flex items-center px-2 py-0.5 bg-blue-50 text-blue-600 text-xs rounded-full font-medium">
-                              +{achievement.members.length - 5}
-                            </span>
-                          )}
-                        </div>
+                        <MemberDisplay members={achievement.members} variant="compact" maxVisible={3} />
                       </td>
                       <td className="px-6 py-4 text-sm text-slate-600">
                         {achievement.submitterName}

@@ -18,11 +18,11 @@ import {
 import { api } from '../api/client.js';
 import { useAuthStore } from '../store/useAuthStore.js';
 import { StatusBadge } from '../components/StatusBadge.js';
+import { MemberDisplay } from '../components/MemberDisplay.js';
 import { 
   formatDate, 
   formatDateTime,
   getAchievementTypeLabel, 
-  getMemberRoleLabel,
   getPatentTypeLabel,
   getPatentStatusLabel,
   getProjectLevelLabel,
@@ -204,17 +204,7 @@ export default function AchievementDetail() {
 
             <div className="bg-slate-50 rounded-xl p-5">
               <h3 className="text-lg font-semibold text-slate-800 mb-4">参与成员</h3>
-              <div className="flex flex-wrap gap-2">
-                {achievement.members.map((member, index) => (
-                  <div key={member.id} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-slate-200 rounded-full">
-                    <div className="w-5 h-5 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-xs font-semibold">
-                      {index + 1}
-                    </div>
-                    <span className="text-sm font-medium text-slate-800">{member.userName}</span>
-                    <span className="text-xs text-slate-500">· {getMemberRoleLabel(member.role)}</span>
-                  </div>
-                ))}
-              </div>
+              <MemberDisplay members={achievement.members} variant="detailed" />
             </div>
           </div>
 
